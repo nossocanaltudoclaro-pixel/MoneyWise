@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyWise - Gestão Financeira</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💰 MoneyWise</h1>
+            <p>Gerenciador de Finanças Pessoais</p>
+        </header>
+
+        <section class="joke-section">
+            <h2>😄 Gerador de Piadas</h2>
+            <div class="joke-container">
+                <p id="jokeText">Clique no botão para gerar uma piada aleatória!</p>
+                <p id="jokeType" class="joke-type"></p>
+            </div>
+            <button id="jokeBtn" class="btn btn-primary">Gerar Piada</button>
+            <button id="copyBtn" class="btn btn-secondary">Copiar</button>
+        </section>
+
+        <section class="loader" id="loader" style="display: none;">
+            <div class="spinner"></div>
+            <p>Buscando uma piada...</p>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
